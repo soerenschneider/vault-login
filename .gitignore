@@ -1,0 +1,10 @@
+/.idea
+/builds
+/vault-login
+/coverage.*
+
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
