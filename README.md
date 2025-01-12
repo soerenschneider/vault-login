@@ -1,4 +1,8 @@
-# Vault-Login
+# vault-login
+[![Go Report Card](https://goreportcard.com/badge/github.com/soerenschneider/vault-login)](https://goreportcard.com/report/github.com/soerenschneider/vault-login)
+![test-workflow](https://github.com/soerenschneider/vault-login/actions/workflows/test.yaml/badge.svg)
+![release-workflow](https://github.com/soerenschneider/vault-login/actions/workflows/release-container.yaml/badge.svg)
+![golangci-lint-workflow](https://github.com/soerenschneider/vault-login/actions/workflows/golangci-lint.yaml/badge.svg)
 
 Vault-Login is a simple command-line tool that authenticates against HashiCorp Vault using various authentication mechanisms. After successful authentication, it writes the received Vault token to various outputs (e.g., standard output, file or Kubernetes secret).
 
@@ -6,9 +10,9 @@ This tool helps automate the authentication process with Vault and can be useful
 
 ## Features
 
-- Supports multiple authentication methods
-- Outputs Vault token to various locations
-- Lightweight and easy to use for automation and scripting
+🔑 Supports multiple authentication methods<br/>
+💾 Outputs Vault token to various locations<br/>
+🚀 Lightweight and easy to use for automation and scripting<br/>
 
 ## Supported Authentication Methods
 
