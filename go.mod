@@ -6,9 +6,9 @@ require (
 	github.com/hashicorp/vault/api/auth/approle v0.8.0
 	github.com/hashicorp/vault/api/auth/kubernetes v0.8.0
 	go.uber.org/multierr v1.11.0
-	k8s.io/api v0.32.0
-	k8s.io/apimachinery v0.32.0
-	k8s.io/client-go v0.32.0
+	k8s.io/api v0.32.3
+	k8s.io/apimachinery v0.32.3
+	k8s.io/client-go v0.32.3
 )
 
 require (
@@ -68,4 +68,4 @@ require (
 
 go 1.23.0
 
-toolchain go1.23.4
+toolchain go1.24.1
